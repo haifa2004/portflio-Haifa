@@ -1,59 +1,50 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
+        <Row className="d-flex justify-content-center text-center">
+          <Col md={8} className="home-about-description mx-auto">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LAISSEZ-MOI <span className="purple"> ME PRÉSENTER </span>
             </h1>
             <p className="home-about-body">
-              I am a motivated Computer Science student and aspiring
-               Full-Stack Developer,IA,LM
-             
+              Je suis une étudiante en Informatique motivée et une future
+              Développeuse Full-Stack, intéressée par IA et le Machine Learning.
               <br />
               <br />
-              I’m proficient in
+              Je maîtrise
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, Node.js, React.js, SpringBoot ,Angular and Java{" "}
+                  JavaScript, Node.js, React.js, SpringBoot, Angular et Java{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — et j aime travailler aussi bien sur la partie backend que frontend.
               <br />
               <br />
-              My key areas of interest include developing
+              Mes principaux centres d intérêt incluent le développement
               <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, {" "}
-                </b>
+                <b className="purple"> d applications web </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              ainsi que l exploration de nouvelles façons de connecter
+              les systèmes on-chain et off-chain.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Dès que possible, j adore créer des projets avec
+              <b className="purple"> Node.js </b> et des frameworks modernes tels que{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
+                <b className="purple">React.js</b> et{" "}
                 <b className="purple">Next.js</b>.
               </i>
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
       </Container>
     </Container>
   );
 }
+
 export default Home2;

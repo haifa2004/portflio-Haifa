@@ -8,32 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Haifa Ouni</span>{" "}
-            from <span className="purple">Sousse , Tunisia</span>.
+            Bonjour à tous ! Je suis <span className="purple">Haifa Ouni</span>{" "}
+            de <span className="purple">Sousse, Tunisie</span>.
             <br />
-            I’m computer science student {" "}
-             at{" "}
+            Je suis étudiante en informatique à{" "}
             <span className="purple">Isitcom</span>.
-            
             <br />
             <br />
-            
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Passionate about problem-solving 
+              <ImPointRight /> Passionnée par la résolution de problèmes
             </li>
             <li className="about-activity">
-              <ImPointRight /> Experience in public speaking at student events and project demonstrations
+              <ImPointRight /> Expérience en prise de parole en public lors
+              d événements étudiants et de présentations de projets
             </li>
             <li className="about-activity">
-              <ImPointRight /> Volunteer experience organizing workshops and hackathons at ISITCom
+              <ImPointRight /> Expérience de bénévolat dans l organisation
+              d ateliers et de hackathons à ISITCom
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Efforcez-vous de créer des choses qui font la différence !"
           </p>
           <footer className="blockquote-footer">Haifa</footer>
         </blockquote>

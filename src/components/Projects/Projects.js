@@ -14,10 +14,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mes projects <strong className="purple"> </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Voici quelques projets sur lesquels j'ai travaillé récemment.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -25,7 +25,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Admin Dashboard"
-              description="The Admin Dashboard is a responsive and interactive web interface built entirely using React (frontend-only)"
+              description="Le tableau de bord administrateur est une interface web réactive et interactive entièrement construite avec React (frontend uniquement)."
               ghLink="https://github.com/haifa2004/Admin-Dashboard-"
              
             />
@@ -36,8 +36,8 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="chatbot"
-              description="chatbot uses the Gemini API to process and understand user messages intelligently.
-It provides fast, natural, and context-aware responses to create a smooth conversational experience."
+              description="Le chatbot utilise API Gemini pour traiter et comprendre intelligemment les messages des utilisateurs.
+Il fournit des réponses rapides, naturelles et contextuelles pour créer une expérience de conversation fluide"
               ghLink="https://github.com/haifa2004/ChatBot"
               demoLink="https://chat-bot-lovat-nu.vercel.app/"
             />
@@ -48,7 +48,9 @@ It provides fast, natural, and context-aware responses to create a smooth conver
               imgPath={editor}
               isBlog={false}
               title="E-commerce"
-              description="This E-Commerce application is built using the MERN stack (MongoDB, Express.js, React, Node.js). It provides a complete online shopping experience where users can browse products, add items to their cart, and securely place orders. The admin dashboard allows easy product, category, and user management."
+              description="Cette application E-Commerce est construite avec le stack MERN (MongoDB, Express.js, React, Node.js).
+Elle offre une expérience complète de shopping en ligne où les utilisateurs peuvent parcourir les produits, ajouter des articles à leur panier et passer des commandes en toute sécurité.
+Le tableau de bord admin permet une gestion facile des produits, catégories et utilisateurs."
               ghLink="https://github.com/haifa2004/E-commerce"
                            
             />
@@ -59,7 +61,8 @@ It provides fast, natural, and context-aware responses to create a smooth conver
               imgPath={leaf}
               isBlog={false}
               title="faceRecognition"
-              description="A Python-based Face Recognition project that detects and identifies faces using computer vision techniques. Built for learning and experimentation with AI and image processing."
+              description="Projet de reconnaissance faciale en Python qui détecte et identifie les visages en utilisant des techniques de vision par ordinateur.
+Conçu pour lapprentissage et l expérimentation avec l IA et le traitement d images."
               ghLink="https://github.com/haifa2004/faceRecogniton"
              
             />
